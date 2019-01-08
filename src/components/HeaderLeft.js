@@ -13,7 +13,7 @@ class HeaderLeft extends React.Component {
           <img
             id="image-86-4"
             alt
-            src="/wp-content/uploads/2018/11/FinalDesign_NUTRITANK_NoBG.png"
+            src={require('../img/FinalDesign_NUTRITANK_NoBG.png')}
             className="ct-image"
           />
         </a>
