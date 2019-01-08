@@ -32,7 +32,7 @@ class HomeSection3 extends React.Component {
               <img
                 id="image-35-14"
                 alt
-                src="/wp-content/uploads/2018/12/map.png"
+                src={require('../img/map.png')}
                 className="ct-image"
               />
               <div id="div_block-259-14" className="ct-div-block">

@@ -14,7 +14,7 @@ class HomeSection6 extends React.Component {
                 <img
                   id="image-277-14"
                   alt
-                  src="/wp-content/uploads/2018/12/womens-health-logo.gif"
+                  src={require('../img/womens-health-logo.gif')}
                   className="ct-image atomic-content-19-image"
                 />
               </div>
@@ -22,7 +22,7 @@ class HomeSection6 extends React.Component {
                 <img
                   id="image-283-14"
                   alt
-                  src="/wp-content/uploads/2018/12/logo-1.png"
+                  src={require('../img/logo-1.png')}
                   className="ct-image atomic-content-19-image"
                 />
               </div>
@@ -30,7 +30,7 @@ class HomeSection6 extends React.Component {
                 <img
                   id="image-275-14"
                   alt
-                  src="/wp-content/uploads/2018/12/bbc-news-png-bbc-news-1997-logo-png-971.png"
+                  src={require('../img/bbc-news-png-bbc-news-1997-logo-png-971.png')}
                   className="ct-image atomic-content-19-image"
                 />
               </div>
@@ -40,7 +40,7 @@ class HomeSection6 extends React.Component {
                 <img
                   id="image-273-14"
                   alt
-                  src="/wp-content/uploads/2018/12/1280px-BBC_Radio_4.svg_.png"
+                  src={require('../img/1280px-BBC_Radio_4.svg_.png')}
                   className="ct-image atomic-content-19-image"
                 />
               </div>
@@ -48,7 +48,7 @@ class HomeSection6 extends React.Component {
                 <img
                   id="image-285-14"
                   alt
-                  src="/wp-content/uploads/2018/12/BBC_Bristol_1997_Logo.png"
+                  src={require('../img/BBC_Bristol_1997_Logo.png')}
                   className="ct-image atomic-content-19-image"
                 />
               </div>
@@ -56,7 +56,7 @@ class HomeSection6 extends React.Component {
                 <img
                   id="image-279-14"
                   alt
-                  src="/wp-content/uploads/2018/12/250px-Channel_4_logo_2015.svg_.png"
+                  src={require('../img/250px-Channel_4_logo_2015.svg_.png')}
                   className="ct-image atomic-content-19-image"
                 />
               </div>
@@ -64,7 +64,7 @@ class HomeSection6 extends React.Component {
                 <img
                   id="image-281-14"
                   alt
-                  src="/wp-content/uploads/2018/12/jobbq-retina-logo.png"
+                  src={require('../img/jobbq-retina-logo.png')}
                   className="ct-image atomic-content-19-image"
                 />
               </div>

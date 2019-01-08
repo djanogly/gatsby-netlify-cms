@@ -40,7 +40,7 @@ class HomeSection4 extends React.Component {
                         <img
                           id="image-79-14"
                           alt
-                          src="/wp-content/uploads/2018/12/Doctors-Kitchen.png"
+                          src={require('../img/Doctors-Kitchen.png')}
                           className="ct-image"
                         />
                       </div>
@@ -80,7 +80,7 @@ class HomeSection4 extends React.Component {
                         <img
                           id="image-90-14"
                           alt
-                          src="/wp-content/uploads/2018/12/nnedpro.png"
+                          src={require('../img/nnedpro.png')}
                           className="ct-image"
                         />
                       </div>
@@ -120,7 +120,7 @@ class HomeSection4 extends React.Component {
                         <img
                           id="image-97-14"
                           alt
-                          src="/wp-content/uploads/2018/12/Picture11.png"
+                          src={require('../img/Picture11.png')}
                           className="ct-image"
                         />
                       </div>

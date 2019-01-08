@@ -17,7 +17,7 @@ class Footer extends React.Component {
                   <img
                     id="image-139-11"
                     alt
-                    src="/wp-content/uploads/2018/11/Logo-Nutritank.png"
+                    src={require('../img/Logo-Nutritank.png')}
                     className="ct-image"
                   />
                 </a>

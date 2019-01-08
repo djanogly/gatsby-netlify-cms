@@ -25,7 +25,7 @@ class HomeSection5 extends React.Component {
                   <img
                     id="image-207-14"
                     alt
-                    src="/wp-content/uploads/2018/12/Doctors-Kitchen.png"
+                    src={require('../img/Doctors-Kitchen.png')}
                     className="ct-image"
                   />
                 </div>
@@ -33,7 +33,7 @@ class HomeSection5 extends React.Component {
                   <img
                     id="image-212-14"
                     alt
-                    src="/wp-content/uploads/2018/12/nnedpro.png"
+                    src={require('../img/nnedpro.png')}
                     className="ct-image"
                   />
                 </div>
@@ -43,7 +43,7 @@ class HomeSection5 extends React.Component {
                   <img
                     id="image-220-14"
                     alt
-                    src="/wp-content/uploads/2018/12/CoM.png"
+                    src={require('../img/CoM.png')}
                     className="ct-image"
                   />
                 </div>
@@ -51,7 +51,7 @@ class HomeSection5 extends React.Component {
                   <img
                     id="image-225-14"
                     alt
-                    src="/wp-content/uploads/2018/12/Picture11.png"
+                    src={require('../img/Picture11.png')}
                     className="ct-image"
                   />
                 </div>
