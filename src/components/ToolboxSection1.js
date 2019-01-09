@@ -13,7 +13,7 @@ class ToolboxSection1 extends React.Component {
           <img
             id="image-423-44"
             alt
-            src={require('..img/WhatsApp-Image-2018-12-17-at-19.10.28.jpeg"
+            src={require('../img/WhatsApp-Image-2018-12-17-at-19.10.28.jpeg')}
             className="ct-image"
             style={{
               alignSelf: "left"

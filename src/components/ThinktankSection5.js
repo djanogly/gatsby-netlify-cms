@@ -63,7 +63,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-164-113"
                 alt
-                src={require('..img/Minha-Ray-.png')}
+                src={require('../img/Minha-Ray-.png')}
                 className="ct-image"
               />
               <div id="text_block-150-113" className="ct-text-block">
@@ -81,7 +81,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-166-113"
                 alt
-                src={require('..img/Sumantra-Ray-2.png')}
+                src={require('../img/Sumantra-Ray-2.png')}
                 className="ct-image"
               />
               <div id="text_block-153-113" className="ct-text-block">
@@ -99,7 +99,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-168-113"
                 alt
-                src={require('..img/Luke-Buckner-nxgzf4bwexuxc0x9m1ujkn1f6b95xzdjzesennj9hs.jpg')}
+                src={require('../img/Luke-Buckner-nxgzf4bwexuxc0x9m1ujkn1f6b95xzdjzesennj9hs.jpg')}
                 className="ct-image"
               />
               <div id="text_block-156-113" className="ct-text-block">
@@ -126,7 +126,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-182-113"
                 alt
-                src={require('..img/Minha-Ray-.png')}
+                src={require('../img/Minha-Ray-.png')}
                 className="ct-image"
               />
               <div id="text_block-183-113" className="ct-text-block">
@@ -141,7 +141,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-185-113"
                 alt
-                src={require('..img/Sumantra-Ray-2.png')}
+                src={require('../img/Sumantra-Ray-2.png')}
                 className="ct-image"
               />
               <div id="text_block-186-113" className="ct-text-block">
@@ -156,7 +156,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-188-113"
                 alt
-                src={require('..img/Dr-Peter-Foley.jpg')}
+                src={require('../img/Dr-Peter-Foley.jpg')}
                 className="ct-image"
               />
               <div id="text_block-189-113" className="ct-text-block">
@@ -171,7 +171,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-192-113"
                 alt
-                src={require('..img/Dr-Duncan-Still.jpg')}
+                src={require('../img/Dr-Duncan-Still.jpg')}
                 className="ct-image"
               />
               <div id="text_block-193-113" className="ct-text-block">
@@ -188,7 +188,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-265-113"
                 alt
-                src={require('..img/Rupy-Auja-Doctors-Kitchen.png')}
+                src={require('../img/Rupy-Auja-Doctors-Kitchen.png')}
                 className="ct-image"
               />
               <div id="text_block-266-113" className="ct-text-block">
@@ -203,7 +203,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-268-113"
                 alt
-                src={require('..img/HW-individuals.png')}
+                src={require('../img/HW-individuals.png')}
                 className="ct-image"
               />
               <div id="text_block-269-113" className="ct-text-block">
@@ -218,7 +218,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-271-113"
                 alt
-                src={require('..img/ZW-Individuals.png')}
+                src={require('../img/ZW-Individuals.png')}
                 className="ct-image"
               />
               <div id="text_block-272-113" className="ct-text-block">
@@ -233,7 +233,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-274-113"
                 alt
-                src={require('..img/Dr-Anita-Mitra.jpg')}
+                src={require('../img/Dr-Anita-Mitra.jpg')}
                 className="ct-image"
               />
               <div id="text_block-275-113" className="ct-text-block">
@@ -250,7 +250,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-278-113"
                 alt
-                src={require('..img/Dr-Catherine-Zollman.jpg')}
+                src={require('../img/Dr-Catherine-Zollman.jpg')}
                 className="ct-image"
               />
               <div id="text_block-279-113" className="ct-text-block">
@@ -265,7 +265,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-281-113"
                 alt
-                src={require('..img/Venita-Patel-Photo.jpg')}
+                src={require('../img/Venita-Patel-Photo.jpg')}
                 className="ct-image"
               />
               <div id="text_block-282-113" className="ct-text-block">
@@ -280,7 +280,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-284-113"
                 alt
-                src={require('..img/Trevor-Thompson.jpg')}
+                src={require('../img/Trevor-Thompson.jpg')}
                 className="ct-image"
               />
               <div id="text_block-285-113" className="ct-text-block">
@@ -295,7 +295,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-287-113"
                 alt
-                src={require('..img/RC.png')}
+                src={require('../img/RC.png')}
                 className="ct-image"
               />
               <div id="text_block-288-113" className="ct-text-block">
@@ -312,7 +312,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-291-113"
                 alt
-                src={require('..img/SQUARE-COLOUR.jpg')}
+                src={require('../img/SQUARE-COLOUR.jpg')}
                 className="ct-image"
               />
               <div id="text_block-292-113" className="ct-text-block">
@@ -327,7 +327,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-294-113"
                 alt
-                src={require('..img/Dr-Michael-Dixon.jpg')}
+                src={require('../img/Dr-Michael-Dixon.jpg')}
                 className="ct-image"
               />
               <div id="text_block-295-113" className="ct-text-block">
@@ -342,7 +342,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-297-113"
                 alt
-                src={require('..img/Cardiologists-Kitchen-1.jpg')}
+                src={require('../img/Cardiologists-Kitchen-1.jpg')}
                 className="ct-image"
               />
               <div id="text_block-298-113" className="ct-text-block">
@@ -357,7 +357,7 @@ class ThinktankSection5 extends React.Component {
               <img
                 id="image-300-113"
                 alt
-                src={require('..img/Dr-Elizabeth-Thompson-1.jpg')}
+                src={require('../img/Dr-Elizabeth-Thompson-1.jpg')}
                 className="ct-image"
               />
               <div id="text_block-301-113" className="ct-text-block">

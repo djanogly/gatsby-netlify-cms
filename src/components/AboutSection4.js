@@ -19,7 +19,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-17-149"
                 alt
-                src={require('..img/Iain-sq.jpg')}
+                src={require('../img/Iain-sq.jpg')}
                 className="ct-image"
               />
               <div id="text_block-18-149" className="ct-text-block">
@@ -34,7 +34,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-20-149"
                 alt
-                src={require('..img/ally.jpg')}
+                src={require('../img/ally.jpg')}
                 className="ct-image"
               />
               <div id="text_block-21-149" className="ct-text-block">
@@ -57,7 +57,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-80-149"
                 alt
-                src={require('..img/5e0e3a5f-fa5b-4436-9861-05226bbb2920.jpg')}
+                src={require('../img/5e0e3a5f-fa5b-4436-9861-05226bbb2920.jpg')}
                 className="ct-image"
               />
               <div id="text_block-81-149" className="ct-text-block">
@@ -72,7 +72,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-83-149"
                 alt
-                src={require('..img/0a9b2e73-d589-460f-9dfe-be17a4a1690b.jpg')}
+                src={require('../img/0a9b2e73-d589-460f-9dfe-be17a4a1690b.jpg')}
                 className="ct-image"
               />
               <div id="text_block-84-149" className="ct-text-block">
@@ -87,7 +87,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-97-149"
                 alt
-                src={require('..img/Dr-Jack.jpeg"
+                src={require('../img/Dr-Jack.jpeg')}
                 className="ct-image"
               />
               <div id="text_block-98-149" className="ct-text-block">
@@ -104,7 +104,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-345-149"
                 alt
-                src={require('..img/Jessicarr-Moorehouse-Photo.jpg')}
+                src={require('../img/Jessicarr-Moorehouse-Photo.jpg')}
                 className="ct-image"
               />
               <div id="text_block-346-149" className="ct-text-block">
@@ -119,7 +119,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-348-149"
                 alt
-                src={require('..img/Josh-sq.jpg')}
+                src={require('../img/Josh-sq.jpg')}
                 className="ct-image"
               />
               <div id="text_block-349-149" className="ct-text-block">
@@ -134,7 +134,7 @@ class AboutSection4 extends React.Component {
               <img
                 id="image-351-149"
                 alt
-                src={require('..img/mugshot-1-1024x683-3.jpg')}
+                src={require('../img/mugshot-1-1024x683-3.jpg')}
                 className="ct-image"
               />
               <div id="text_block-352-149" className="ct-text-block">

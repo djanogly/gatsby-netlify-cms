@@ -22,7 +22,7 @@ class ThinktankSection6 extends React.Component {
               <img
                 id="image-347-113"
                 alt
-                src={require('..img/Doctors-Kitchen.png')}
+                src={require('../img/Doctors-Kitchen.png')}
                 className="ct-image"
               />
             </div>
@@ -33,7 +33,7 @@ class ThinktankSection6 extends React.Component {
               <img
                 id="image-349-113"
                 alt
-                src={require('..img/nnedpro.png')}
+                src={require('../img/nnedpro.png')}
                 className="ct-image"
               />
             </div>
@@ -44,7 +44,7 @@ class ThinktankSection6 extends React.Component {
               <img
                 id="image-351-113"
                 alt
-                src={require('..img/CoM.png')}
+                src={require('../img/CoM.png')}
                 className="ct-image"
               />
             </div>
@@ -52,7 +52,7 @@ class ThinktankSection6 extends React.Component {
               <img
                 id="image-353-113"
                 alt
-                src={require('..img/Picture11.png')}
+                src={require('../img/Picture11.png')}
                 className="ct-image atomic-content-19-image"
               />
             </div>
@@ -65,7 +65,7 @@ class ThinktankSection6 extends React.Component {
               <img
                 id="image-360-113"
                 alt
-                src={require('..img/Picture5.png')}
+                src={require('../img/Picture5.png')}
                 className="ct-image"
               />
             </div>
@@ -76,7 +76,7 @@ class ThinktankSection6 extends React.Component {
               <img
                 id="image-358-113"
                 alt
-                src={require('..img/Picture1-1.png')}
+                src={require('../img/Picture1-1.png')}
                 className="ct-image"
               />
             </div>
@@ -84,7 +84,7 @@ class ThinktankSection6 extends React.Component {
               <img
                 id="image-362-113"
                 alt
-                src={require('..img/Picture4.png')}
+                src={require('../img/Picture4.png')}
                 className="ct-image atomic-content-19-image"
               />
             </div>

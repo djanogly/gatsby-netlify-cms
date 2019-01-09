@@ -16,7 +16,7 @@ class ToolboxSection3 extends React.Component {
               <img
                 id="image-153-44"
                 alt
-                src={require('..img/Monash.png')}
+                src={require('../img/Monash.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div
@@ -90,7 +90,7 @@ class ToolboxSection3 extends React.Component {
               <img
                 id="image-160-44"
                 alt
-                src={require('..img/ACPM.png')}
+                src={require('../img/ACPM.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div
@@ -159,7 +159,7 @@ class ToolboxSection3 extends React.Component {
               <img
                 id="image-174-44"
                 alt
-                src={require('..img/Nutrition-in-Medicine.png')}
+                src={require('../img/Nutrition-in-Medicine.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div
@@ -231,7 +231,7 @@ class ToolboxSection3 extends React.Component {
               <img
                 id="image-167-44"
                 alt
-                src={require('..img/Plant-based.png')}
+                src={require('../img/Plant-based.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div

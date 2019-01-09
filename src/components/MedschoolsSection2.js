@@ -17,7 +17,7 @@ class MedschoolsSection2 extends React.Component {
             <img
               id="image-173-74"
               alt
-              src={require('..img/soc.png')}
+              src={require('../img/soc.png')}
               className="ct-image"
             />
             <div id="div_block-176-74" className="ct-div-block">
@@ -43,7 +43,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-8-74"
                   alt
-                  src={require('..img/3.png')}
+                  src={require('../img/3.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -61,7 +61,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-79-74"
                   alt
-                  src={require('..img/4.png')}
+                  src={require('../img/4.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -79,7 +79,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-12-74"
                   alt
-                  src={require('..img/5.png')}
+                  src={require('../img/5.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -97,7 +97,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-16-74"
                   alt
-                  src={require('..img/3-1.png')}
+                  src={require('../img/3-1.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -115,7 +115,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-20-74"
                   alt
-                  src={require('..img/4-1.png')}
+                  src={require('../img/4-1.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -135,7 +135,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-83-74"
                   alt
-                  src={require('..img/5-1.png')}
+                  src={require('../img/5-1.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -153,7 +153,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-86-74"
                   alt
-                  src={require('..img/24.png')}
+                  src={require('../img/24.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -171,7 +171,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-89-74"
                   alt
-                  src={require('..img/23.png')}
+                  src={require('../img/23.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -189,7 +189,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-92-74"
                   alt
-                  src={require('..img/22.png')}
+                  src={require('../img/22.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -207,7 +207,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-95-74"
                   alt
-                  src={require('..img/21.png')}
+                  src={require('../img/21.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -227,7 +227,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-99-74"
                   alt
-                  src={require('..img/20.png')}
+                  src={require('../img/20.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -245,7 +245,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-102-74"
                   alt
-                  src={require('..img/19.png')}
+                  src={require('../img/19.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -263,7 +263,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-105-74"
                   alt
-                  src={require('..img/17.png')}
+                  src={require('../img/17.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -281,7 +281,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-108-74"
                   alt
-                  src={require('..img/18.png')}
+                  src={require('../img/18.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -299,7 +299,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-111-74"
                   alt
-                  src={require('..img/16.png')}
+                  src={require('../img/16.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -319,7 +319,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-115-74"
                   alt
-                  src={require('..img/15.png')}
+                  src={require('../img/15.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -337,7 +337,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-118-74"
                   alt
-                  src={require('..img/14.png')}
+                  src={require('../img/14.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -355,7 +355,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-121-74"
                   alt
-                  src={require('..img/13.png')}
+                  src={require('../img/13.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -373,7 +373,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-124-74"
                   alt
-                  src={require('..img/12.png')}
+                  src={require('../img/12.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -391,7 +391,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-127-74"
                   alt
-                  src={require('..img/11.png')}
+                  src={require('../img/11.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -411,7 +411,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-131-74"
                   alt
-                  src={require('..img/10.png')}
+                  src={require('../img/10.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -429,7 +429,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-134-74"
                   alt
-                  src={require('..img/9.png')}
+                  src={require('../img/9.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -447,7 +447,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-137-74"
                   alt
-                  src={require('..img/8.png')}
+                  src={require('../img/8.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -465,7 +465,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-140-74"
                   alt
-                  src={require('..img/7.png')}
+                  src={require('../img/7.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -483,7 +483,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-143-74"
                   alt
-                  src={require('..img/6.png')}
+                  src={require('../img/6.png')}
                   className="ct-image atomic-team-1-mate"
                 />
               </a>
@@ -499,7 +499,7 @@ class MedschoolsSection2 extends React.Component {
               <img
                 id="image-178-74"
                 alt
-                src={require('..img/soc.png')}
+                src={require('../img/soc.png')}
                 className="ct-image"
               />
               <div id="div_block-179-74" className="ct-div-block">
@@ -523,7 +523,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-192-74"
                   alt
-                  src={require('..img/netherlands.png')}
+                  src={require('../img/netherlands.png')}
                   className="ct-image atomic-team-1-mate"
                 />
                 <h1 id="headline-206-74" className="ct-headline">
@@ -541,7 +541,7 @@ class MedschoolsSection2 extends React.Component {
                 <img
                   id="image-213-74"
                   alt
-                  src={require('..img/poland.png')}
+                  src={require('../img/poland.png')}
                   className="ct-image atomic-team-1-mate"
                 />
                 <h1 id="headline-214-74" className="ct-headline">
