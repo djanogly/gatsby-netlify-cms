@@ -3,12 +3,12 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
-exports.onCreateWebpackConfig = ({ stage, actions }) => {
+exports.modifyWebpackConfig = ({ config, stage }) => {
   switch (stage) {
     case "build-html":
-        actions.setWebpackConfig({
-          plugins: [webpackFooPlugin],
-        })
+      actions.setWebpackConfig({
+        plugins: [webpack.DefinePlugin]
+      })
     }
 };
 
