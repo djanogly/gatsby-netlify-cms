@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
-import '../../components/med-schools.css'
-import MedschoolsContent from '../../components/MedschoolsContent'
+import '../../components/med-schools/med-schools.css'
+import MedschoolsContent from '../../components/med-schools/MedschoolsContent'
 
 export default class IndexPage extends React.Component {
   render() {

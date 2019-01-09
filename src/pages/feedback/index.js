@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/Layout'
-import '../../components/feedback.css'
-import FeedbackContent from '../../components/FeedbackContent'
+import '../../components/feedback/feedback.css'
+import FeedbackContent from '../../components/feedback/FeedbackContent'
 
 export default class IndexPage extends React.Component {
   render() {
