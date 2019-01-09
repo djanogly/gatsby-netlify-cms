@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import '../components/prospective-partners.css'
-import ProspectivepartnersContent from '../components/ProspectivepartnersContent'
+import Layout from '../../components/Layout'
+import '../../components/prospective-partners.css'
+import ProspectivepartnersContent from '../../components/ProspectivepartnersContent'
 
 export default class IndexPage extends React.Component {
   render() {
