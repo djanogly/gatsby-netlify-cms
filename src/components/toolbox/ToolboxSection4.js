@@ -16,7 +16,7 @@ class ToolboxSection4 extends React.Component {
               <img
                 id="image-95-44"
                 alt
-                src={require('../img/Culinary-Medicine.png')}
+                src={require('../../img/Culinary-Medicine.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div
@@ -106,7 +106,7 @@ class ToolboxSection4 extends React.Component {
                 <img
                   id="image-102-44"
                   alt
-                  src={require('../img/nnedpro.png')}
+                  src={require('../../img/nnedpro.png')}
                   className="ct-image atomic-showcase-8-image"
                   style={{
                     alignSelf: "center",
@@ -183,7 +183,7 @@ class ToolboxSection4 extends React.Component {
               <img
                 id="image-108-44"
                 alt
-                src={require('../img/BSLM.png')}
+                src={require('../../img/BSLM.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div

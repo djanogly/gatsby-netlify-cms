@@ -19,7 +19,7 @@ class ToolboxSection5 extends React.Component {
               <img
                 id="image-260-44"
                 alt
-                src={require('../img/Picture1.png')}
+                src={require('../../img/Picture1.png')}
                 className="ct-image"
               />
               <h3

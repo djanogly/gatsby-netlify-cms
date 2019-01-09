@@ -27,7 +27,7 @@ class AmbassadorsSection2 extends React.Component {
               <img
                 id="image-16-171"
                 alt
-                src={require('../img/Dutch-team-1024x631.jpg')}
+                src={require('../../img/Dutch-team-1024x631.jpg')}
                 className="ct-image atomic-content-26-image"
               />
             </div>
@@ -82,7 +82,7 @@ class AmbassadorsSection2 extends React.Component {
               <img
                 id="image-27-171"
                 alt
-                src={require('../img/Dutch-Team-big.jpg')}
+                src={require('../../img/Dutch-Team-big.jpg')}
                 className="ct-image atomic-content-26-image"
               />
             </div>

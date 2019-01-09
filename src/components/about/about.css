@@ -373,7 +373,7 @@ ul li {
 }
 
 #section-60-149 {
-    background-image: linear-gradient(rgba(64,64,64,0.73),rgba(64,64,64,0.73)),url(~../img/desk.jpg);
+    background-image: linear-gradient(rgba(64,64,64,0.73),rgba(64,64,64,0.73)),url(~../../img/desk.jpg);
     background-size: auto,cover;
     text-align: center;
 }

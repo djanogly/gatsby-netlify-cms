@@ -37,7 +37,7 @@ class HomeSection2 extends React.Component {
               <img
                 id="image-286-14"
                 alt
-                src={require('../img/perspective2.png')}
+                src={require('../../img/perspective2.png')}
                 className="ct-image"
               />
             </div>
