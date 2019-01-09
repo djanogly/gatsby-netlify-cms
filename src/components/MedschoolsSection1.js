@@ -38,7 +38,7 @@ class MedschoolsSection1 extends React.Component {
           <a
             id="link_button-149-74"
             className="ct-link-button"
-            href={require('../img/Nutritanksoc-Blueprint.ppd')}
+            href={require('../img/Nutritanksoc-Blueprint.pdf')}
             target="_self"
           >
             Blueprint
