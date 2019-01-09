@@ -38,7 +38,7 @@ class MedschoolsSection1 extends React.Component {
           <a
             id="link_button-149-74"
             className="ct-link-button"
-            href="/wp-content/uploads/2018/12/Nutritanksoc-Blueprint.pdf"
+            href={require('..img/Nutritanksoc-Blueprint.ppd')}
             target="_self"
           >
             Blueprint
@@ -48,7 +48,7 @@ class MedschoolsSection1 extends React.Component {
               <img
                 id="image-154-74"
                 alt
-                src="/wp-content/uploads/2018/12/WhatsApp-Image-2018-12-17-at-18.35.35.jpeg"
+                src={require('..img/WhatsApp-Image-2018-12-17-at-18.35.35.jpeg"
                 className="ct-image"
               />
             </a>
@@ -61,7 +61,7 @@ class MedschoolsSection1 extends React.Component {
               <img
                 id="image-155-74"
                 alt
-                src="/wp-content/uploads/2018/12/WhatsApp-Image-2018-12-17-at-18.35.50.jpeg"
+                src={require('..img/WhatsApp-Image-2018-12-17-at-18.35.50.jpeg"
                 className="ct-image"
               />
             </a>

@@ -16,7 +16,7 @@ class ToolboxSection2 extends React.Component {
               <img
                 id="image-185-44"
                 alt
-                src="/wp-content/uploads/2018/12/Doctors-Kitchen.png"
+                src={require('..img/Doctors-Kitchen.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div
@@ -80,7 +80,7 @@ class ToolboxSection2 extends React.Component {
               <img
                 id="image-192-44"
                 alt
-                src="/wp-content/uploads/2018/12/Harvard.png"
+                src={require('..img/Harvard.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div
@@ -144,7 +144,7 @@ class ToolboxSection2 extends React.Component {
               <img
                 id="image-199-44"
                 alt
-                src="/wp-content/uploads/2018/12/Monash-Free-Course.png"
+                src={require('..img/Monash-Free-Course.png')}
                 className="ct-image atomic-showcase-8-image"
               />
               <div

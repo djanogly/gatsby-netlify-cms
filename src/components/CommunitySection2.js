@@ -26,7 +26,7 @@ class CommunitySection2 extends React.Component {
                   <img
                     id="image-115-104"
                     alt
-                    src="/wp-content/uploads/2018/12/students.png"
+                    src={require('..img/students.png')}
                     className="ct-image"
                   />
                 </a>
@@ -55,7 +55,7 @@ class CommunitySection2 extends React.Component {
                   <img
                     id="image-107-104"
                     alt
-                    src="/wp-content/uploads/2018/12/doctors.png"
+                    src={require('..img/doctors.png')}
                     className="ct-image"
                   />
                 </a>
@@ -84,7 +84,7 @@ class CommunitySection2 extends React.Component {
                   <img
                     id="image-102-104"
                     alt
-                    src="/wp-content/uploads/2018/12/Healthcare.png"
+                    src={require('..img/Healthcare.png')}
                     className="ct-image"
                   />
                 </a>

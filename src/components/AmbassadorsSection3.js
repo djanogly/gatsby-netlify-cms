@@ -29,7 +29,7 @@ class AmbassadorsSection3 extends React.Component {
               <img
                 id="image-47-171"
                 alt
-                src="/wp-content/uploads/2018/12/poland-logo.png"
+                src={require('..img/poland-logo.png')}
                 className="ct-image atomic-content-26-image"
               />
             </div>
@@ -85,7 +85,7 @@ class AmbassadorsSection3 extends React.Component {
               <img
                 id="image-54-171"
                 alt
-                src="/wp-content/uploads/2018/12/Poland-team.jpeg"
+                src={require('..img/Poland-team.jpeg"
                 className="ct-image atomic-content-26-image"
               />
             </div>
@@ -98,7 +98,7 @@ class AmbassadorsSection3 extends React.Component {
               <img
                 id="image-57-171"
                 alt
-                src="/wp-content/uploads/2018/12/Poland-team-dinner.jpeg"
+                src={require('..img/Poland-team-dinner.jpeg"
                 className="ct-image atomic-content-26-image"
               />
             </div>

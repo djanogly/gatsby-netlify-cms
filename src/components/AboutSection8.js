@@ -28,7 +28,7 @@ class AboutSection8 extends React.Component {
                 <img
                   id="image-274-149"
                   alt
-                  src="/wp-content/uploads/2018/12/100541389_gettyimages-504450902.jpg"
+                  src={require('..img/100541389_gettyimages-504450902.jpg')}
                   className="ct-image atomic-showcase-3-image"
                 />
               </a>
@@ -61,7 +61,7 @@ class AboutSection8 extends React.Component {
                 <img
                   id="image-278-149"
                   alt
-                  src="/wp-content/uploads/2018/12/p062bnxs.jpg"
+                  src={require('..img/p062bnxs.jpg')}
                   className="ct-image atomic-showcase-3-image"
                 />
               </a>
@@ -97,7 +97,7 @@ class AboutSection8 extends React.Component {
                 <img
                   id="image-282-149"
                   alt
-                  src="/wp-content/uploads/2018/12/p053tpdq.jpg"
+                  src={require('..img/p053tpdq.jpg')}
                   className="ct-image atomic-showcase-3-image"
                 />
               </a>
