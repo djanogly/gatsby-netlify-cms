@@ -2,7 +2,7 @@ import React from 'react';
 import Auth from '../utils/auth';
 import Subscribe from './Subscribe';
 
-import logo from '../assets/logo-100-blue.png';
+import logo from '../img/logo-100-blue.png';
 
 const auth = new Auth();
 
