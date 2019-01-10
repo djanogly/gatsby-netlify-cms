@@ -1,5 +1,4 @@
 import React from "react";
-import Login from "./Login";
 import Nav from "./Nav"
 
 class NavMenu extends React.Component {
@@ -53,7 +52,6 @@ class NavMenu extends React.Component {
               </a>
             </li>
             <Nav />
-            <Login />
           </ul>
         </div>
       </nav>

@@ -1,5 +1,6 @@
 import React from "react";
 import LoginButton from "../LoginButton";
+import Typed from './typed'
 
 class HomeSection1 extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class HomeSection1 extends React.Component {
                   data-back-delay={900}
                   data-loop={1}
                 />
+                <Typed />
               </div>
             </div>
           </div>
