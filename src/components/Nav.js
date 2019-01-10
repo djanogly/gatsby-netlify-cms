@@ -1,6 +1,5 @@
 import React from 'react';
 import Auth from '../utils/auth';
-
 import logo from '../img/logo-100-blue.png';
 
 const auth = new Auth();

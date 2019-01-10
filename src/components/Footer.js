@@ -1,4 +1,7 @@
 import React from "react";
+import Twitter from './twitter.svg'
+import Facebook from './facebook.svg'
+import Instagram from './instagram.svg'
 
 class Footer extends React.Component {
   render() {
@@ -28,7 +31,7 @@ class Footer extends React.Component {
                     className="oxy-social-icons-facebook"
                   >
                     <svg>
-                      <use xlinkHref="#oxy-social-icons-icon-facebook-blank" />
+                      <Facebook />
                     </svg>
                   </a>
                   <a
@@ -37,7 +40,7 @@ class Footer extends React.Component {
                     className="oxy-social-icons-instagram"
                   >
                     <svg>
-                      <use xlinkHref="#oxy-social-icons-icon-instagram-blank" />
+                      <Instagram />
                     </svg>
                   </a>
                   <a
@@ -45,9 +48,7 @@ class Footer extends React.Component {
                     target="_blank"
                     className="oxy-social-icons-twitter"
                   >
-                    <svg>
-                      <use xlinkHref="#oxy-social-icons-icon-twitter-blank" />
-                    </svg>
+                      <Twitter />
                   </a>
                 </div>
               </div>
