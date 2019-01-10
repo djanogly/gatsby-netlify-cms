@@ -14,7 +14,7 @@ const typography = new Typography({
     "Source Sans Pro",
     "Permanent Marker",
   ],
-  bodyFontFamily: ["Georgia", "serif"],
+  bodyFontFamily: ["Open Sans", "Source Sans Pro"],
 })
 
 // Hot reload typography in development.
