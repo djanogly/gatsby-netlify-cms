@@ -1,6 +1,5 @@
 import React from 'react';
 import Auth from '../utils/auth';
-import Subscribe from './Subscribe';
 
 import logo from '../img/logo-100-blue.png';
 
@@ -99,7 +98,6 @@ export default class Nav extends React.Component {
                   }
                 </a>
                 <span> | </span>
-                <Subscribe />
               </span>
             )
           }
