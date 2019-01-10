@@ -10,6 +10,7 @@ const typography = new Typography({
     "Helvetica",
     "Arial",
     "sans-serif",
+    "Open Sans",
     "Source Sans Pro",
     "Permanent Marker",
   ],
