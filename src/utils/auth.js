@@ -11,11 +11,7 @@ export default class Auth {
     redirectUri: 'https://mystifying-ramanujan-fd2cb2.netlify.com/callback',
     audience: `https://${AUTH0_DOMAIN}/api/v2/`,
     responseType: 'id_token token',
-    scope: 'openid profile email user_metadata picture',
-    overrides: {
-  	    __tenant: config.auth0Tenant,
-  	    __token_issuer: config.authorizationServer.issuer
-    }
+    scope: 'openid profile email user_metadata picture'
   });
 
   userProfile;
