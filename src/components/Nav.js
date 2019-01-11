@@ -1,5 +1,5 @@
 import React from 'react';
-import Auth from '../utils/auth';
+import Auth from '../Auth/auth';
 
 const auth = new Auth();
 
@@ -42,9 +42,25 @@ export default class Nav extends React.Component {
       >
         <div
           style={{
+            float: 'left',
+            lineHeight: '37px',
+            height: '37px'
+          }}
+        >
+        </div>
+        <div
+          style={{
             float: 'right'
           }}
         >
+          <a href="/"
+             style={{
+               boxShadow: 'none',
+               lineHeight: '37px'
+             }}
+          >
+            Home
+          </a>
           <span> | </span>
           {
             !this.state.authenticated && (
