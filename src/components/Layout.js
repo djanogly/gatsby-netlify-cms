@@ -25,16 +25,6 @@ const TemplateWrapper = ({ children }) => (
           }
         }
     `}
-    // Callback doesn't need nav etc, so return early
-    if (location.pathname === '/callback') {
-      return (
-        <div>
-          <Container>
-            {children()}
-          </Container>
-        </div>
-      )
-    }
 
     let header;
     render={data => (
