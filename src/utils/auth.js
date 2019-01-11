@@ -9,8 +9,8 @@ export default class Auth {
     domain: AUTH0_DOMAIN,
     clientID: AUTH0_CLIENT_ID,
     redirectUri: 'https://mystifying-ramanujan-fd2cb2.netlify.com/callback',
-    audience: 'https://nutritank/api',
-    responseType: 'token id_token',
+    audience: 'https://' + AUTH0_DOMAIN + '/userinfo',
+    responseType: 'id_token token',
     scope: 'openid profile email user_metadata picture'
   });
 
@@ -44,6 +44,14 @@ export default class Auth {
     localStorage.removeItem('user');
     // Remove user profile
     this.userProfile = null;
+  }
+
+  securedPing() {
+    const { getAccessToken } = this.props.auth;
+    const headers = { 'Authorization': `Bearer ${getidToken()}`}
+    axios.get(`${API_URL}/user-info`, { headers })
+      .then(response => this.setState({ message: response.data.message }))
+      .catch(error => this.setState({ message: error.message }));
   }
 
   handleAuthentication() {
