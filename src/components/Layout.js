@@ -10,6 +10,21 @@ import './main.css'
 import './style.css'
 import './normalize.css'
 
+const { location, children } = this.props;
+
+    // Callback doesn't need nav etc, so return early
+    if (location.pathname === '/callback') {
+      return (
+        <div>
+          <Container>
+            {children()}
+          </Container>
+        </div>
+      )
+    }
+
+let header;
+
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
     query={graphql`

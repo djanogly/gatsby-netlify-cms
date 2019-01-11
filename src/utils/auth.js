@@ -9,10 +9,12 @@ export default class Auth {
     domain: AUTH0_DOMAIN,
     clientID: AUTH0_CLIENT_ID,
     redirectUri: 'http://localhost:8000/callback',
-    audience: `https://${AUTH0_DOMAIN}/api/v2/`,
+    audience: 'https://nutritank/api',
     responseType: 'token id_token',
-    scope: 'openid profile email'
+    scope: 'openid profile email user_metadata picture read:toolbox'
   });
+
+  userProfile;
 
   login() {
     this.auth0.authorize();
@@ -23,6 +25,16 @@ export default class Auth {
     this.logout = this.logout.bind(this);
     this.handleAuthentication = this.handleAuthentication.bind(this);
     this.isAuthenticated = this.isAuthenticated.bind(this);
+    this.getProfile = this.getProfile.bind(this);
+  }
+
+  getProfile(cb) {
+    this.auth0.client.userInfo(this.accessToken, (err, profile) => {
+      if (profile) {
+        this.userProfile = profile;
+      }
+      cb(err, profile);
+    });
   }
 
   logout() {
@@ -30,6 +42,8 @@ export default class Auth {
     localStorage.removeItem('id_token');
     localStorage.removeItem('expires_at');
     localStorage.removeItem('user');
+    // Remove user profile
+    this.userProfile = null;
   }
 
   handleAuthentication() {
