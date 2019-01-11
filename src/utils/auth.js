@@ -9,9 +9,6 @@ export default class Auth {
   accessToken;
   idToken;
   expiresAt;
-}
-
-export default class Auth {
   auth0 = new auth0.WebAuth({
     domain: AUTH0_DOMAIN,
     clientID: AUTH0_CLIENT_ID,
