@@ -10,9 +10,6 @@ import './main.css'
 import './style.css'
 import './normalize.css'
 
-const { location, children } = this.props;
-
-
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -26,7 +23,6 @@ const TemplateWrapper = ({ children }) => (
         }
     `}
 
-    let header;
     render={data => (
       <div>
         <Helmet>
