@@ -9,9 +9,9 @@ export default class Auth {
     domain: AUTH0_DOMAIN,
     clientID: AUTH0_CLIENT_ID,
     redirectUri: 'https://mystifying-ramanujan-fd2cb2.netlify.com/callback',
-    audience: 'https://amatfjawjb.execute-api.eu-west-1.amazonaws.com/dev',
+    audience: 'https://nutritank/api',
     responseType: 'token id_token',
-    scope: 'openid profile email user_metadata picture read:toolbox'
+    scope: 'openid profile email user_metadata picture'
   });
 
   userProfile;
