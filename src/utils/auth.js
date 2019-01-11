@@ -5,16 +5,17 @@ const AUTH0_DOMAIN = 'nutritank.auth0.com';
 const AUTH0_CLIENT_ID = 'eOJ5WLYQLvUaxWR6PLOvGA0WOz8GF67_';
 
 export default class Auth {
-  accessToken;
-  idToken;
-  expiresAt;
   auth0 = new auth0.WebAuth({
     domain: AUTH0_DOMAIN,
     clientID: AUTH0_CLIENT_ID,
     redirectUri: 'https://mystifying-ramanujan-fd2cb2.netlify.com/callback',
     audience: `https://${AUTH0_DOMAIN}/api/v2/`,
     responseType: 'id_token token',
-    scope: 'openid profile email user_metadata picture'
+    scope: 'openid profile email user_metadata picture',
+    overrides: {
+  	    __tenant: config.auth0Tenant,
+  	    __token_issuer: config.authorizationServer.issuer
+    }
   });
 
   userProfile;
