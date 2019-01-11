@@ -1,6 +1,5 @@
 import auth0 from 'auth0-js';
 import { navigateTo } from "gatsby-link";
-import History from '../history'
 
 const AUTH0_DOMAIN = 'nutritank.auth0.com';
 const AUTH0_CLIENT_ID = 'eOJ5WLYQLvUaxWR6PLOvGA0WOz8GF67_';
@@ -13,7 +12,7 @@ export default class Auth {
     domain: AUTH0_DOMAIN,
     clientID: AUTH0_CLIENT_ID,
     redirectUri: 'https://mystifying-ramanujan-fd2cb2.netlify.com/callback',
-    audience: 'https://' + AUTH0_DOMAIN + '/userinfo',
+    audience: `https://${AUTH0_DOMAIN}/api/v2/`,
     responseType: 'id_token token',
     scope: 'openid profile email user_metadata picture'
   });
@@ -39,7 +38,6 @@ export default class Auth {
       if (authResult && authResult.accessToken && authResult.idToken) {
         this.setSession(authResult);
       } else if (err) {
-        history.replace('/home');
         console.log(err);
         alert(`Error: ${err.error}. Check the console for further details.`);
       }
@@ -64,10 +62,6 @@ export default class Auth {
     this.idToken = authResult.idToken;
     this.expiresAt = expiresAt;
 
-    // navigate to the home route
-    history.replace('/home');
-  }
-
   renewSession() {
     this.auth0.checkSession({}, (err, authResult) => {
        if (authResult && authResult.accessToken && authResult.idToken) {
@@ -88,10 +82,6 @@ export default class Auth {
 
     // Remove isLoggedIn flag from localStorage
     localStorage.removeItem('isLoggedIn');
-
-    // navigate to the home route
-    history.replace('/home');
-  }
 
   isAuthenticated() {
     // Check whether the current time is past the
