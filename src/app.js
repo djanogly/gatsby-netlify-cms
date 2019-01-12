@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   render() {
-    const { isAuthenticated, userHasScopes } = this.props.auth;
+    const { isAuthenticated } = this.props.auth;
 
     return (
       <div>
@@ -43,7 +43,6 @@ class App extends Component {
             {
               !isAuthenticated() && (
                   <Button
-                    id="qsLoginBtn"
                     bsStyle="primary"
                     className="btn-margin"
                     onClick={this.login.bind(this)}
@@ -55,40 +54,6 @@ class App extends Component {
             {
               isAuthenticated() && (
                   <Button
-                    bsStyle="primary"
-                    className="btn-margin"
-                    onClick={this.goTo.bind(this, 'profile')}
-                  >
-                    Profile
-                  </Button>
-                )
-            }
-            {
-              isAuthenticated() && (
-                  <Button
-                    bsStyle="primary"
-                    className="btn-margin"
-                    onClick={this.goTo.bind(this, 'ping')}
-                  >
-                    Ping
-                  </Button>
-                )
-            }
-            {
-              isAuthenticated() &&  userHasScopes(['write:messages']) && (
-                  <Button
-                    bsStyle="primary"
-                    className="btn-margin"
-                    onClick={this.goTo.bind(this, 'admin')}
-                  >
-                    Admin
-                  </Button>
-                )
-            }
-            {
-              isAuthenticated() && (
-                  <Button
-                    id="qsLogoutBtn"
                     bsStyle="primary"
                     className="btn-margin"
                     onClick={this.logout.bind(this)}
