@@ -4,6 +4,11 @@ import Auth0Lock from 'auth0-lock';
 import { AUTH_CONFIG } from './auth0-variables';
 
 class Lock extends Component {
+
+  state = {
+    id_token: window.localStorage.getItem('id_token'),
+  }
+
   lock = new Auth0Lock(AUTH_CONFIG.clientId, AUTH_CONFIG.domain, {
     auth: {
       redirect: false,
@@ -25,8 +30,7 @@ class Lock extends Component {
   }
 
   onAuthenticated() {
-    if (typeof window !== `undefined`) {
-      this.lock.on('authenticated', (authResult) => {
+    this.lock.on('authenticated', (authResult) => {
         let expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime());
         localStorage.setItem('access_token', authResult.accessToken);
         localStorage.setItem('id_token', authResult.idToken);
@@ -34,7 +38,6 @@ class Lock extends Component {
 
       this.setState({ loggedIn: true });
     });
-  }
   }
 
   componentDidMount() {
