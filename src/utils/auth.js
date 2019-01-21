@@ -60,14 +60,6 @@ const lock = isBrowser
   })
   : {};
 
-  constructor() {
-    this.handleAuthentication();
-    // binds functions to keep this context
-    this.login = this.login.bind(this);
-    this.logout = this.logout.bind(this);
-    this.isAuthenticated = this.isAuthenticated.bind(this);
-  }
-
   export const login() {
     // Call the show method to display the widget.
     if (!isBrowser) {
