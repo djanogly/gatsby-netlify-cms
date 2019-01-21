@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 import React, { Component } from 'react';
-import { Login } from 'utils/auth';
+import { Login } from '../utils/auth';
 
 class LoginButton extends Component {
   constructor(props) {
