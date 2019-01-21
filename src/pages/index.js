@@ -1,19 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-<<<<<<< HEAD
 import { isAuthenticated } from '../utils/auth';
 import Layout from '../components/Layout'
 import Logout from '../components/Logout'
 import Login from '../components/Login'
-=======
-import Layout from '../components/Layout'
->>>>>>> parent of 87d365f... Beazer attempt auth0
 import '../components/home/home.css'
 import InnerContent from '../components/home/InnerContent'
 
 export default class IndexPage extends React.Component {
-<<<<<<< HEAD
   constructor(props) {
   super(props);
   this.state = {
@@ -29,10 +24,6 @@ render() {
   const { authenticated } = this.state;
 
   return (
-=======
-  render() {
-    return (
->>>>>>> parent of 87d365f... Beazer attempt auth0
       <Layout>
       <InnerContent />
       </Layout>
