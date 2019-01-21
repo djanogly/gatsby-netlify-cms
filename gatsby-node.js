@@ -97,7 +97,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       module: {
         rules: [
           {
-            test: /auth0-lock/,
+            test: /auth0-js/,
             use: loaders.null(),
           },
         ],
