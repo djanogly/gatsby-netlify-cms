@@ -4,6 +4,11 @@ import Auth0Lock from 'auth0-lock';
 import { AUTH_CONFIG } from './auth0-variables';
 
 class Lock extends Component {
+
+  state = {
+    id_token: window.localStorage.getItem('id_token'),
+  }
+
   lock = new Auth0Lock(AUTH_CONFIG.clientId, AUTH_CONFIG.domain, {
     auth: {
       redirect: false,
