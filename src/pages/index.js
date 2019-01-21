@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import { isAuthenticated } from '../utils/auth';
 import Layout from '../components/Layout'
-import Layout from '../components/Logout'
-import Layout from '../components/Login'
+import Logout from '../components/Logout'
+import Login from '../components/Login'
 import '../components/home/home.css'
 import InnerContent from '../components/home/InnerContent'
 

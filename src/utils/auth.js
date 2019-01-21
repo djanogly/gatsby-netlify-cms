@@ -57,7 +57,7 @@ const lock = isBrowser
     languageDictionary: {
       title: "Nutritank"
     }
-  });
+  })
 
   constructor() {
     this.handleAuthentication();
