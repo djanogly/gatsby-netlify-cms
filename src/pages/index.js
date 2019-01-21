@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import { isAuthenticated } from '../utils/auth';
+import { isAuthenticated } from 'utils/auth';
 import Layout from '../components/Layout'
 import Layout from '../components/Logout'
 import Layout from '../components/Login'
@@ -24,6 +24,17 @@ render() {
   const { authenticated } = this.state;
 
   return (
+<<<<<<< HEAD
+=======
+    <div>
+      {authenticated && (
+              <Logout/>
+          )}
+          {!authenticated && (
+              <Login />
+          )}
+    </div>
+>>>>>>> parent of cfa17f4... fix links and add auth0-lock
       <Layout>
       <InnerContent />
       </Layout>
