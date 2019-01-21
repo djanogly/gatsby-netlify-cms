@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import { isAuthenticated } from 'utils/auth';
+import { isAuthenticated } from '../utils/auth';
 import Layout from '../components/Layout'
 import Layout from '../components/Logout'
 import Layout from '../components/Login'
@@ -31,10 +31,10 @@ render() {
           {!authenticated && (
               <Login />
           )}
-    </div>
       <Layout>
       <InnerContent />
       </Layout>
+    </div>
     )
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Logout } from 'utils/auth';
+import { Logout } from '../utils/auth';
 
 class LogoutButton extends Component {
   constructor(props) {
