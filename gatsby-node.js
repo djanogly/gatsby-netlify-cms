@@ -100,10 +100,6 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
             test: /auth0-lock/,
             use: loaders.null(),
           },
-          {
-            test: /auth0-js/,
-            use: loaders.null(),
-          },
         ],
       },
     });

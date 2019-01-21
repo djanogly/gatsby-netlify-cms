@@ -77,7 +77,30 @@ export default class Auth {
     scope: 'openid profile email user_metadata picture'
   });
 
+<<<<<<< HEAD
   userProfile;
+=======
+  constructor() {
+    this.handleAuthentication();
+    // binds functions to keep this context
+    this.login = this.login.bind(this);
+    this.logout = this.logout.bind(this);
+    this.isAuthenticated = this.isAuthenticated.bind(this);
+  }
+
+  export const login() {
+    // Call the show method to display the widget.
+    if (!isBrowser) {
+      return;
+    }
+    this.lock.show();
+  };
+
+  export const handleAuthentication() {
+    if (!isBrowser) {
+      return;
+    }
+>>>>>>> parent of 6be7384... Update gatsby-node.js
 
   constructor() {
     this.login = this.login.bind(this);
