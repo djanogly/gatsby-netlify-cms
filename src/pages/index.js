@@ -24,17 +24,9 @@ render() {
   const { authenticated } = this.state;
 
   return (
-    <div>
-      {authenticated && (
-              <Logout/>
-          )}
-          {!authenticated && (
-              <Login />
-          )}
       <Layout>
       <InnerContent />
       </Layout>
-    </div>
     )
   }
 }

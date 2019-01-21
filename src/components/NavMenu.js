@@ -2,6 +2,11 @@ import React from "react";
 import Login from "./Login"
 
 class NavMenu extends React.Component {
+  showLock: function() {
+    // Show the Auth0Lock widget
+    this.props.lock.show();
+  }
+
   render() {
     return (
       <nav
@@ -53,6 +58,9 @@ class NavMenu extends React.Component {
             </li>
             <Login />
           </ul>
+          <div className="login-box">
+            <a onClick={this.showLock}>Sign In</a>
+          </div>
         </div>
       </nav>
     );

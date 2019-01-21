@@ -29,7 +29,7 @@ const TemplateWrapper = ({ children }) => (
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
           <meta name="description" content={data.site.siteMetadata.description} />
-          <meta name="viewport" content="width=device-width, initial-scale=1"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 
           <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
 	        <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
@@ -42,6 +42,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
+          <script src="https://cdn.auth0.com/js/lock/11.0.1/lock.min.js"></script>
         </Helmet>
         <Header />
         <div>{children}</div>
