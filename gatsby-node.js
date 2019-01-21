@@ -83,6 +83,7 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
+<<<<<<< HEAD
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === 'build-html') {
     /*
@@ -109,6 +110,8 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   }
 }
 
+=======
+>>>>>>> parent of 87d365f... Beazer attempt auth0
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
