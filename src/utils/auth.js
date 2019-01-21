@@ -59,7 +59,6 @@ const lock = isBrowser
       title: "Nutritank"
     }
   })
-<<<<<<< HEAD
   : {};
 =======
 import auth0 from 'auth0-js';
@@ -77,8 +76,6 @@ export default class Auth {
     responseType: 'id_token token',
     scope: 'openid profile email user_metadata picture'
   });
-=======
->>>>>>> parent of dcf82df... Update auth.js
 
 <<<<<<< HEAD
   userProfile;
