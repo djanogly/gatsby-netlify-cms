@@ -25,16 +25,14 @@ class Lock extends Component {
   }
 
   onAuthenticated() {
-    if (typeof window !== `undefined`) {
-      this.lock.on('authenticated', (authResult) => {
-        let expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime());
-        localStorage.setItem('access_token', authResult.accessToken);
-        localStorage.setItem('id_token', authResult.idToken);
-        localStorage.setItem('expires_at', expiresAt);
+    this.lock.on('authenticated', (authResult) => {
+      let expiresAt = JSON.stringify((authResult.expiresIn * 1000) + new Date().getTime());
+      localStorage.setItem('access_token', authResult.accessToken);
+      localStorage.setItem('id_token', authResult.idToken);
+      localStorage.setItem('expires_at', expiresAt);
 
       this.setState({ loggedIn: true });
     });
-  }
   }
 
   componentDidMount() {
