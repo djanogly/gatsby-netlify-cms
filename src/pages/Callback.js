@@ -1,5 +1,5 @@
 import React from 'react';
-import Auth from '../Auth/Lock';
+import Auth from '../utils/auth';
 import loading from './loading.svg';
 
 
