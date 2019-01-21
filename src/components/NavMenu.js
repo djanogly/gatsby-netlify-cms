@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav"
+import Login from "./Login"
 
 class NavMenu extends React.Component {
   render() {
@@ -51,7 +51,7 @@ class NavMenu extends React.Component {
                 Toolbox
               </a>
             </li>
-            <Nav />
+            <Login />
           </ul>
         </div>
       </nav>
